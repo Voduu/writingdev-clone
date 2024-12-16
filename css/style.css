@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color:#232830;
     padding: 50px 100px
@@ -9,11 +13,17 @@ a {
 }
 
 .header,
-.nav {
+.nav,
+.hero {
     display: flex;
     align-items: center;
-    color: #EEE;
-    font-family:'Poppins';
+}
+
+.header,
+.nav,
+.hero h2 {
+    color: #FFF;
+    font-family:'Poppins', sans-serif;
 }
 
 .header {
@@ -25,4 +35,31 @@ a {
     gap: 1rem;
     justify-content: space-between;
     font-size: 1rem;
+}
+
+.hero {
+    flex-direction: column;
+    margin: 40px 0px 60px;
+}
+
+.hero-img {
+    width: 200px;
+    height: 195px;
+    border: 1px solid white;
+}
+
+.hero h1 {
+    font-family: Recursive, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.75rem;
+    color: #FF7575;
+    margin: 1.5rem 0 0;
+}
+
+.hero h2 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1rem 0 0;
 }
