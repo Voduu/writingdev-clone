@@ -1,3 +1,28 @@
 html {
     background-color:#232830;
+    padding: 50px 100px
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header,
+.nav {
+    display: flex;
+    align-items: center;
+    color: #EEE;
+    font-family:'Poppins';
+}
+
+.header {
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.nav {
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 1rem;
 }
