@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -106,4 +108,47 @@ a {
 
 .filter-options::-webkit-scrollbar {
     display: none;
+}
+
+.content {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 440px;
+    width: 390px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 24px;
+}
+
+.card img {
+    width: 342px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.card h3 {
+    margin-top: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.card p {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-footer {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
 }
