@@ -97,6 +97,7 @@ a {
     overflow-x: auto;
     position: relative;
     padding-right: 2rem;
+    font-size: 1.25rem;
 }
 
 .filter-overlay {
