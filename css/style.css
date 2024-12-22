@@ -87,6 +87,7 @@ a {
 
 .filter-icons {
     display: flex;
+    gap: 2px;
 }
 
 .filter-options {
@@ -94,6 +95,7 @@ a {
     gap: 1rem;
     overflow-x: auto;
     position: relative;
+    padding-right: 2rem;
 }
 
 .filter-overlay {
